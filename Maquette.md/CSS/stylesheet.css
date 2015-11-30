@@ -1,0 +1,32 @@
+body p{
+	 border: 3px black ridge;
+}
+header{
+	height: 100%;
+	margin-bottom: 3px;
+	color: white;
+	background-color: violet;
+	border: 3px black ridge;
+}
+.img-circle{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	
+}
+.left{
+	text-align:left;
+	display: inline-block;
+}
+.right{
+	text-align:right;
+	display: inline-block;
+	padding-left: 70%;
+	margin-right: 2px;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px black ridge;
+}
