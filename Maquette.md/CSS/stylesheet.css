@@ -1,32 +1,199 @@
+html, body {
+    background-color: #00FF00;
+    height: 100%;
+    overflow-x: hidden;
+}
 body p{
 	 border: 3px black ridge;
 }
 header{
-	height: 100%;
-	margin-bottom: 3px;
+	height: 20%;
+	margin-bottom: 10px;
 	color: white;
-	background-color: violet;
-	border: 3px black ridge;
+	background-color: #00FE7E;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 .img-circle{
 	display: inline-block;
 	margin-left: 15px;
 	margin-top: 5px;
+	 width: 60px;
+    float:left;
+}
 	
+/* Container */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left:-4px;
+    margin-right:-4px;
 }
-.left{
-	text-align:left;
-	display: inline-block;
+.title {
+    padding: 20px;
 }
-.right{
-	text-align:right;
-	display: inline-block;
-	padding-left: 70%;
-	margin-right: 2px;
+
+.left {
+    float:left;
+    margin-left: 15px;
 }
-.center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border: 3px black ridge;
+
+.right {
+    float:right;
+    margin-right: 15px;
+}
+h1 {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.6em
+}
+.col-md-4, .col-md-6, .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+p {
+    display: inline-block;
+    color: black;
+    font-size: 1.1em;
+    padding: 20px;
+    margin:0;
+}
+/* Flèches */
+
+.arrow {
+    display: inline-block;
+    float: center;
+    margin-right: 15px;
+    margin-top: 24px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+.link {
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+/* Vignettes */
+
+.little {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.little-special {
+    position: relative;
+    height: 247px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.big {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*couleur*/
+
+.vanille {
+    background-color: #E1CE9A;
+}
+.olive-dark {
+    background-color: #708D23;
+}
+.violine {
+    background-color: #A10684;
+}
+.caramel-dark {
+    background-color: #7E3300;
+}
+.citrouille {
+    background-color: #DF6D14;
+}
+.cassis-dark {
+    background-color: #3A020D;
+}
+.marine {
+    background-color: #03224C;
+}
+.moutarde-dark {
+    background-color: #C7CF00;
+}
+.malachite {
+    background-color: #1FA055;
+}
+.pink-dark {
+    background-color: #f8504d;
+}
+.bleu {
+    background-color: #0000FF;
+}
+.marine-dark {
+    background-color: #03224C;
+}
+.bordeaux {
+    background-color: #6D071A;
+}
+.brique-dark {
+    background-color: #842E1B;
+}
+.noisette {
+    background-color: #955628;
+}
+.marron-dark {
+    background-color: #582900;
+}
+.fer {
+    background-color: #848484;
+}
+.framboise-dark {
+    background-color: #C72C48;
+}
+.taupe {
+    background-color: #463F32;
+}
+.turquoise-dark {
+    background-color: #25FDE9;
+}
+.noir{
+	background-color: #000000;
+}
+.nacarat-dark {
+    background-color: #FC5D5D;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12, header {
+        margin-bottom: 3px;
+    }
+
+    .little, .little-special, .big {
+        margin-bottom: 6px;
+    }
 }
